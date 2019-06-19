@@ -1,0 +1,12 @@
+body {
+  display: block;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.about-me, .contact-info {
+  text-align: center;
+}
