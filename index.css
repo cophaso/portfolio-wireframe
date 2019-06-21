@@ -1,12 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  display: block;
-}
-
-li {
-  list-style: none;
-  display: inline;
-}
-
-.about-me, .contact-info, .portfolio-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  color: #444;
   text-align: center;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+section {
+  min-height: 500px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+div{
+  display: inline;
+  text-align: center;
+}
+
+.div-1{
+  position: relative;
+  float: left;
+  top: 25%;
+  left: 25%;
+}
+
+.div-2 {
+  position: relative;
+  float: right;
+  top: -25%;
+  left: -25%;
 }
