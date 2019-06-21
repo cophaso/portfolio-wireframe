@@ -21,7 +21,7 @@ nav {
 
 section {
   min-height: 500px;
-  padding: 6% 0;
+  padding: 10% 0;
   background-color: #bbb;
 }
 
@@ -46,4 +46,20 @@ div{
   float: right;
   top: -25%;
   left: -25%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .div-1{
+    float: none;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  
+  .div-2 {
+    float: none;
+    top: 0;
+    left: 0;
+    display: block;
+  }
 }
