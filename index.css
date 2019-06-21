@@ -7,6 +7,6 @@ li {
   display: inline;
 }
 
-.about-me, .contact-info {
+.about-me, .contact-info, .portfolio-title {
   text-align: center;
 }
